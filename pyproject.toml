@@ -1,0 +1,13 @@
+[project]
+name = "commodore-protocol"
+version = "0.1.0"
+description = "Multi-unit coordination protocol for the Pelagic fleet"
+requires-python = ">=3.10"
+dependencies = ["pyyaml"]
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
